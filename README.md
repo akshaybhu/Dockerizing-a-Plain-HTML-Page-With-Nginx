@@ -10,6 +10,8 @@ NGINX (root path /usr/share/nginx/html;) specifies the directory where the serve
 
 Dockerfile: This file contains instructions for building a Docker image. It specifies the base image, copies files into the container, installs dependencies, and sets up the environment.
 
+# To begin with docker, lets first create a EC2 instance:
+
 Launch EC2 instance for amazon linux machine.
 Update using “sudo yum update -y ” and install nginx using “sudo yum install nginx -y”
 Then enable/start the nginx service
